@@ -1,0 +1,33 @@
+div.text-box h3:first-child{
+    color: pink;
+}
+#greycol{
+    color:grey;
+}
+div>div>p{
+    color:red;
+}
+p:nth-last-child(2){
+    color:rgb(0, 255, 0);
+}
+.yellow{
+    color:yellow;
+}
+tr:not(.first):hover{
+    color: aqua;
+}
+td:nth-child(even){
+    font-family: sans-serif;
+}
+tr:not(:first-child){
+    color: blueviolet;
+}
+td:nth-child(-n+1){
+    font-size: 30px;
+}
+.first:only-child{
+    color:rgb(121, 213, 167)
+}
+th:nth-child(2){
+    color:brown;
+}
